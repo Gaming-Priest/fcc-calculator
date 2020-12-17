@@ -16,9 +16,6 @@ export default function App() {
   const [lastOp, setLastOp] = useState('')
   const [currOp, setCurrOp] = useState('')
 
-  let isOperator = /[*/+‑]/
-  let endsWithOperator =/[*|+|‑|/]$/
-  let endsWithNegativeSign = /\d[‑]$/
 
   //HANDLE NUMBERS INPUTS
   function numbers(e) {
